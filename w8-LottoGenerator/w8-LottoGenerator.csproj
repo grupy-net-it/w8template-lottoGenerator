@@ -12,9 +12,9 @@
     <DefaultLanguage>pl-PL</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>w8-LottoGenerator_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>w8-LottoGenerator_TemporaryKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
-    <PackageCertificateThumbprint>AC72CF9960798085388EAE92A9F4287A668844A6</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>3150497EC298422B9EA80CC6FFA712607CFCFDB7</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -111,7 +111,6 @@
     <Compile Include="ViewModels\MainPageViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Common\BindableBase.cs" />
-    <Compile Include="Common\DebugLogAppender.cs" />
     <Compile Include="Common\DesignTimeResource.cs" />
     <Compile Include="Common\LayoutAwarePage.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
@@ -125,11 +124,9 @@
     </AppxManifest>
     <None Include="Common\ReadMe.txt" />
     <None Include="packages.config" />
-    <None Include="w8-LottoGenerator_StoreKey.pfx" />
     <None Include="w8-LottoGenerator_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Package.StoreAssociation.xml" />
     <EmbeddedResource Include="AppSettings.xml" />
     <Content Include="Assets\Asterisk.png" />
     <Content Include="Assets\Images\button.png" />

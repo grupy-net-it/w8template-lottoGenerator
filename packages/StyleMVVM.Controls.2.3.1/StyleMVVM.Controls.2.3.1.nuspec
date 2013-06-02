@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>StyleMVVM.Controls</id>
+    <version>2.3.1</version>
+    <title>StyleMVVM.Controls</title>
+    <authors>Ian Johnson</authors>
+    <owners>Ian Johnson</owners>
+    <licenseUrl>https://stylemvvm.codeplex.com/license</licenseUrl>
+    <projectUrl>https://stylemvvm.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>StyleMVVM.Controls is the controls library to go with StyleMVVM</description>
+    <summary>This is the controls library for StyleMVVM it contains the following controls DockPanel, WrapperPanel, Expander, HeaderedControl, WatermarkTextBox, and NumericTextBox dependency properties.</summary>
+    <releaseNotes>This is minor bug fixes and performance changes release, covering the following areas DepenencyInjection (WPF), Regions, Validation, and Conventions.</releaseNotes>
+    <copyright>Copyright 2013 Ian Johnson</copyright>
+    <language>en-US</language>
+    <tags>mvvm Metro winrt win8 C# .Net WPF WindowsPhone8</tags>
+    <dependencies>
+      <dependency id="StyleMVVM" version="2.3.1" />
+    </dependencies>
+  </metadata>
+</package>
